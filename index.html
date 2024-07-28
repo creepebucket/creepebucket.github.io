@@ -1,2 +1,60 @@
-<h1>你好, 世界!</h1>
-这里是苦力桶的个人博客喵!
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>creepebucket's blog</title>
+    <style>
+        /* 各元素默认属性 */
+        
+        body, div, p, a {margin: 0; padding: 0; position: fixed;}
+        p, a {color: white; font-size: 1vw;}
+        div {background-color: black; overflow: hidden;}
+        a {text-decoration: none;}
+
+
+        .screen {
+            /* 一个满屏div */
+            width: 100vw;
+            height: 100vh;
+        }
+
+        .line {
+            /* 一条线 */
+            height: 0.1vh;
+            background-color: white;
+        }
+
+        .link {
+            /* 链接 */
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .link:hover {transform: translateY(-1vh); /* 鼠标悬浮时向上移动 */}
+    </style>
+</head>
+
+<body>
+    <div class="screen">
+        <p style="margin-top: 20vh; margin-left: 25vw; font-size: 4vw; font-weight: lighter;">creepebucket's<br>blog</p>
+        <p style="margin-top: 22vh; right: 25vw; font-size: 2vw; font-weight: lighter;">苦力桶的博客</p>
+        <div class="line" style="margin-top: 22vh; right: 25vw; width: 20vw;"></div>
+
+        <!-- 我心爱的链接们(bushi) -->
+        <div class="line" style="width: 8vw; bottom: 21vh; margin-left: 25vw;"></div>
+        <div class="line" style="width: 8vw; bottom: 21vh; margin-left: 35.5vw;"></div>
+        <div class="line" style="width: 8vw; bottom: 21vh; margin-left: 46vw;"></div>
+        <div class="line" style="width: 8vw; bottom: 21vh; margin-left: 56.5vw;"></div>
+        <div class="line" style="width: 8vw; bottom: 21vh; margin-left: 67vw;"></div>
+
+        <a class="link" href="aboutme.html" style="width: 8vw; bottom: 23vh; margin-left: 25vw;">初次相遇</a>
+        <a class="link" href="/blog" style="width: 8vw; bottom: 23vh; margin-left: 35.5vw;">文章列表</a>
+        <a class="link" href="contact.html" style="width: 8vw; bottom: 23vh; margin-left: 46vw;">寻求联系</a>
+        <a class="link" href="links.html" style="width: 8vw; bottom: 23vh; margin-left: 56.5vw;">友情链接</a>
+        <a class="link" href="https://redstonedaily.top" style="width: 8vw; bottom: 23vh; margin-left: 67vw;">红石日报</a>
+
+    </div>
+</body>
+</html>
